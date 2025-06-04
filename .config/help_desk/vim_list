@@ -1,0 +1,25 @@
+• **vim filename** open file in Vim
+• **:w** save file
+• **:q** quit Vim
+• **:wq** save and quit
+• **:q!** quit without saving
+• **u** undo last change
+• **Ctrl + r** redo change
+• **dd** delete current line
+• **yy** copy (yank) current line
+• **p** paste below current line
+• **P** paste above current line
+• **/word** search for word
+• **:s/old/new/g** search and replace (current line)
+• **:%s/old/new/g** search and replace (entire file)
+• **^** move to start of line
+• **$** move to end of line
+• **:42** jump to line number
+• **i** enter insert mode
+• **a** enter append mode
+• **v** enter visual mode
+• **:help** open help
+• **:split** split window horizontally
+• **:vsplit** split window vertically
+• **Ctrl + w, then arrow key** switch between splits
+• **:q** close current split

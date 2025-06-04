@@ -1,0 +1,24 @@
+• **flatpak search <name>** Search for an app on Flathub  
+• **flatpak install flathub <app.id>** Install app for current user  
+• **sudo flatpak install flathub <app.id>** Install app system-wide  
+• **flatpak list** List installed apps  
+• **flatpak list --user** List user-installed apps only  
+• **flatpak run <app.id>** Run an installed app  
+• **flatpak update** Update all flatpaks  
+• **flatpak update --user** Update user flatpaks only  
+• **flatpak uninstall <app.id>** Uninstall a flatpak  
+• **flatpak uninstall --user <app.id>** Uninstall for user only  
+• **flatpak info <app.id>** See info about a flatpak  
+• **flatpak info --show-permissions <app.id>** List file access permissions  
+• **flatpak override <app.id> <option>** Set override for app  
+• **flatpak override --user <app.id> <option>** Set user override (recommended)  
+• **flatpak override --reset <app.id>** Remove override  
+• **flatpak override --user --reset <app.id>** Remove user override  
+• **flatpak override --user <app.id> --socket=wayland** Add Wayland socket permission  
+• **flatpak override --user <app.id> --filesystem=home** Allow access to home folder  
+• **flatpak override --user <app.id> --filesystem=/home/you/Videos** Allow access to specific folder  
+• **flatpak override --user <app.id> --env=QT_QPA_PLATFORM=wayland** Set env var for QT on Wayland  
+• **flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo** Add Flatpak remote (Flathub)  
+• **flatpak remotes** List available remotes  
+• **flatpak list --app --runtime** List installed runtimes and apps  
+• **flatpak uninstall --unused** Remove unused runtimes

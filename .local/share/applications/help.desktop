@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Help-Desk
+Exec=.local/scripts/help_desk.sh
+Terminal=false
+Type=Application
+GenericName=help
+Categories=Utility;
+

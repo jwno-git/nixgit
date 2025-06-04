@@ -1,0 +1,31 @@
+• **git init** Initialize a new Git repository  
+• **git clone <url>** Clone a repository  
+• **git status** Check current status  
+• **git add <file>** Track a new file  
+• **git add .** Track all changes  
+• **git reset <file>** Unstage a file  
+• **git commit -m 'message'** Commit staged changes  
+• **git commit --amend** Amend the last commit  
+• **git log** View commit history  
+• **git log --oneline** View a one-line commit log  
+• **git diff** See changes in working directory  
+• **git diff --cached** See staged changes  
+• **git branch <name>** Create a new branch  
+• **git checkout <name>** Switch branches  
+• **git checkout -b <name>** Create and switch branches  
+• **git merge <branch>** Merge a branch into current  
+• **git branch -d <name>** Delete a branch  
+• **git remote -v** Check remote URLs  
+• **git remote add origin <url>** Add a remote repository  
+• **git push -u origin <branch>** Push to remote (first time)  
+• **git push** Push changes to remote  
+• **git pull** Pull latest changes  
+• **git fetch** Fetch changes without merging  
+• **git checkout -- <file>** Revert a file to last commit  
+• **git blame <file>** Show who changed what line  
+• **git stash** Stash changes  
+• **git stash pop** Apply last stash  
+• **git stash list** List all stashes  
+• **git stash clear** Remove all stashes  
+• **git reset --soft HEAD~1** Undo last commit but keep changes  
+• **git reset --hard HEAD~1** Hard reset to previous commit

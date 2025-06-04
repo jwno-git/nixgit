@@ -1,0 +1,15 @@
+[wofi]
+term=foot
+width=15%
+lines=1
+location=center
+allow-markup=true
+prompt=
+insensitive=true
+content_halign=center
+hide_search=true
+monitor=eDP-1
+x=1220
+y=5
+sort_order=alphabetical
+hide_scroll=true

@@ -1,0 +1,26 @@
+• **pwd** Show current directory  
+• **ls** List files  
+• **ls -a** List all including hidden files  
+• **cd /path/to/dir** Change directory  
+• **cd ..** Go up one directory  
+• **mkdir name** Create new directory  
+• **rm filename** Remove file  
+• **rm -r dirname** Remove directory  
+• **cp source destination** Copy file or folder  
+• **mv oldname newname** Move or rename file  
+• **cat filename** Show contents of a file  
+• **grep 'text' filename** Search inside files  
+• **ps aux** Show running processes  
+• **ps aux | grep name** Filter processes with grep  
+• **kill PID** Kill process by PID  
+• **clear** Clear terminal  
+• **history** Show command history  
+• **sudo !!** Re-run last command with sudo  
+• **command > file.txt** Redirect output to file  
+• **command >> file.txt** Append output to file  
+• **command &** Run a command in background  
+• **command1 && command2** Run multiple commands  
+• **VAR=value** Set a variable  
+• **echo $VAR** Echo a variable  
+• **chmod +x script.sh** Make script executable  
+• **./script.sh** Run a script

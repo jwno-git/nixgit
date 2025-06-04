@@ -1,0 +1,47 @@
+* {
+	background-image: none;
+	box-shadow: none;
+	margin: 500px 200px 500px 200px;        
+}
+
+window {
+	background-color: rgba(15, 15, 15, 0.50);
+}
+
+button {
+	border-radius: 80px;
+	border-color: #94e2d5;
+	color: #cdd6f4;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-style: solid;
+	border-width: 2px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+	margin: 20px;
+}
+
+button:active, button:hover {
+	/* 20% Overlay 2, 80% mantle */
+	background-color: rgba(24, 9, 32, 0.5);
+	outline-style: none;
+}
+#logout {
+    background-image: image(url("/nix/store/2my6wn7kpvx8007dck39n67mvlj8x9b5-wlogout-1.2.2/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+    margin: 10px;
+    }
+
+#lock {
+    background-image: image(url("/nix/store/2my6wn7kpvx8007dck39n67mvlj8x9b5-wlogout-1.2.2/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+    margin: 10px;
+    }
+
+#shutdown {
+    background-image: image(url("/nix/store/2my6wn7kpvx8007dck39n67mvlj8x9b5-wlogout-1.2.2/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+    margin: 10px;
+    }
+
+#reboot {
+    background-image: image(url("/nix/store/2my6wn7kpvx8007dck39n67mvlj8x9b5-wlogout-1.2.2/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+    margin: 10px;
+    }

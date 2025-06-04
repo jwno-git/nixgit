@@ -1,0 +1,17 @@
+## Custom prompt for root and user
+PS1='$(if [[ $EUID -eq 0 ]]; then echo "\[\e[38;5;240m\]$(pwd) \[\e[31m\]root \[\e[38;5;49m\]> \[\e[0m\]"; else echo "\[\e[38;5;240m\]$(pwd) \[\e[38;5;49m\]> \[\e[0m\]"; fi)'
+
+# Path
+export PATH="$HOME/.local/bin:$PATH"
+export EDITOR="nvim"
+export VISUAL="nvim"
+export TERM=xterm-256color
+
+
+# Aliases
+alias ff="fastfetch --logo "Almalinux" --color-keys magenta --title-color-user 36 --title-color-host magenta"
+
+# Screen clear
+
+clear
+ff

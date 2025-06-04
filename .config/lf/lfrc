@@ -1,0 +1,32 @@
+# ~/.config/lf/lfrc
+
+# === General settings ===
+set hidden          # Always show hidden files (dotfiles)
+set preview         # Enable file preview
+set cleaner         # Clear preview window before loading new preview
+set previewer ~/.config/lf/preview.sh
+set drawbox         # Draw a box around previews (optional, looks cleaner)
+
+# === Appearance tweaks ===
+set hiddenprefix "."    # Add "." prefix to hidden files for clear visibility
+set icons false         # Disable icons for clean text-only look
+
+# === Keybindings ===
+map <enter> &~/.local/bin/nvim-term.sh "$f"
+map l open              # l to open
+map h up                # h to go up
+map q quit              # q to quit lf
+map d delete            # d to delete selected file(s)
+map i &eog "$f"         # open image in eog
+map y copy              # y to yank/copy
+map p paste             # p to put/paste
+map t %sh -c 'case "$f" in *.tar.gz|*.tgz) tar -xzf "$f" ;; *.tar) tar -xf "$f" ;; *) echo "Not a tar archive!" ;; esac'
+map m !mpv "$f"
+map c cut
+
+# === Misc ===
+set scrolloff 5         # Keep cursor padding
+set wrapscan            # Wrap around on search results
+
+# === (End of config) ===
+
