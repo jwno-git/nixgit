@@ -15,7 +15,7 @@ else
     PROMPT_COLOR='\[\033[38;5;49m\]'     # Green for user
     USER_INDICATOR=''
     LOCAL_SCRIPTS_PATH="$HOME/.local/scripts"
-    LOGO_PATH="$HOME/Pictures/Logos/nixos.png"
+    LOGO_PATH="$HOME/Pictures/Logos/nixoslogo.png"
     LOGO_PADDING_LEFT=4
     LOGO_PADDING_TOP=2
     TITLE_COLOR_USER=36
