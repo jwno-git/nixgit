@@ -1,0 +1,58 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Persona 5 Pink Dark Star BG",
+  "theme": {
+    "images": {
+      "additional_backgrounds": [
+        "images/0.png"
+      ]
+    },
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "center top"
+      ],
+      "additional_backgrounds_tiling": [
+        "repeat"
+      ]
+    },
+    "colors": {
+      "toolbar": "rgba(0, 0, 0, 0)",
+      "toolbar_text": "rgb(255, 255, 255)",
+      "frame": "rgb(0, 0, 0)",
+      "tab_background_text": "rgb(255, 255, 255)",
+      "toolbar_field": "rgba(35, 35, 35, 0.6)",
+      "toolbar_field_text": "rgb(255, 255, 255)",
+      "tab_line": "rgb(252, 181, 255)",
+      "popup": "rgb(0, 0, 0)",
+      "popup_text": "rgb(255, 255, 255)",
+      "frame_inactive": "rgb(255, 255, 255)",
+      "icons_attention": "rgb(255, 255, 255)",
+      "icons": "rgb(255, 255, 255)",
+      "ntp_background": "rgb(0, 0, 0)",
+      "ntp_text": "rgb(255, 255, 255)",
+      "popup_border": "rgba(255, 255, 255, 0.3)",
+      "popup_highlight_text": "rgb(255, 255, 255)",
+      "popup_highlight": "rgba(252, 181, 255, 0.5)",
+      "sidebar_border": "rgba(255, 255, 255, 0)",
+      "sidebar_highlight": "rgba(252, 181, 255, 0.5)",
+      "tab_loading": "rgb(255, 255, 255)",
+      "tab_selected": "rgba(252, 181, 255, 0.3)",
+      "tab_text": "rgb(255, 255, 255)",
+      "toolbar_bottom_separator": "rgba(255, 255, 255, 0)",
+      "toolbar_field_border_focus": "rgba(252, 181, 255, 0.5)",
+      "toolbar_field_border": "rgba(255, 255, 255, 0.3)",
+      "toolbar_field_focus": "rgba(0, 0, 0, 0.3)",
+      "toolbar_field_highlight_text": "rgb(255, 255, 255)",
+      "toolbar_field_highlight": "rgba(252, 181, 255, 0.5)",
+      "toolbar_field_text_focus": "rgb(255, 255, 255)",
+      "toolbar_top_separator": "rgba(255, 255, 255, 0)",
+      "toolbar_vertical_separator": "rgba(255, 255, 255, 0.5)"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{16699a95-fbed-4f84-9533-0032b75d1202}"
+    }
+  }
+}
