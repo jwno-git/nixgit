@@ -1,0 +1,6 @@
+@-moz-document url-prefix(about:blank), url-prefix(about:newtab) {
+ body{
+  background: url("0.png") center fixed !important;
+  background-size: cover;
+}
+}
